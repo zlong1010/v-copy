@@ -10,7 +10,7 @@
 >
 > - 复制的字符串默认为目标元素的 `textContent`，如果需要指定字符串可以使用：
 >   - `v-copy:"name"` 
->   - `v-copy="{str: name, target: '.sub-cls'}"` 
+>   - `v-copy="{str: name, target: '.class-name'}"` 
 >
 > - 指令已经在目标元素上添加`cursor: pointer; text-decoration: 'underline'`
 
@@ -18,6 +18,6 @@
 
 ## example
   - `<p v-copy>xxxxx</p>`
-  - `<FormItem title="MAC地址" :desc="data.Mac" v-copy="data.Mac" />`
-  - `<FormItem title="MAC地址" :desc="data.Mac" v-copy="{target: '.sub-cls'}" />`
-  - `<FormItem title="MAC地址" :desc="data.Mac" v-copy="{str: '.sub-cls', target: '.sub-cls'}" />`
+  - `<FormItem v-copy="abcd" />`
+  - `<FormItem v-copy="{target: '.class-name'}" />`
+  - `<FormItem v-copy="{str: '.class-name', target: '.class-name'}" />`
