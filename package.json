@@ -1,12 +1,14 @@
 {
   "name": "v-copy2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue 复制字符串指令",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["vue directive"],
+  "keywords": [
+    "vue directive"
+  ],
   "author": "erik607",
   "license": "ISC"
 }
