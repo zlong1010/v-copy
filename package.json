@@ -10,5 +10,6 @@
     "vue directive"
   ],
   "author": "erik-org",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
